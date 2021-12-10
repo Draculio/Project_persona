@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <ol>
+        <li>Nome do paciente: <input type="text" name="nome" placeholder="Nome do paciente"></li>
+        <hr>
+        <li>Registro Hospitalar: <input type="text" name="number" placeholder="Registro do paciente"></li>
+        <hr>
+        <li>Data de inclusão: <input type="date" name="date" placeholder="Data de inclusão">
+        </li>
+        <hr>
+        <li>Data de Nascimento: <input type="date" name="Birthday" placeholder="data de nascimento"></li>
+
+        <hr>
+        <li>Email: <input type="email" name="email" placeholder="email"></li>
+
+        <hr>
+        <li>Sexo <input type="radio" name="sexo" value="s1">masculino</input>
+                <input type="radio" name="sexo" value="s2">feminino</input></li>
+        <hr>
+        <li>Raça Declarada <input list="raça" name="raça" /></li>
+        <datalist id="raça">
+            <option value="Branca">
+            <option value="Negra">
+            <option value="Parda">
+            <option value="Amarela">
+            <option value="Indígena">
+            <option value="Desconhecida">
+        </datalist>
+        <hr>
+        <li>Como ficou sabendo do estudo? <input type="checkbox">Convidado</input>
+                                          <input type="checkbox">Internet</input>
+                                          <input type="checkbox">Amigos</input>
+                                          <input type="checkbox">Familiares</input>
+                                          <input type="checkbox">Outros</input>
+                                          </li>
+    </ol>
+    <button>Submit</button>
+</body>
+
+</html>
